@@ -1,0 +1,112 @@
+<!DOCTYPE html> 
+<html>
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contoh</title>
+    <link rel="stylesheet" href="stylehope.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="website.html">
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul> 
+                <li><a href="website.html">HOME</a></li>
+                <li><a href="penjhtml.html">HTML</a></li>
+                <li><a href="matericss.html">CSS</a></li>
+                <li><a href="CONTOH.jpg">CONTOH</a></li>
+            </ul> 
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contoh program  HTML Dan CSS</h1> 
+</section>  
+
+<!-----contoh------>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+  <h1>Contoh Membuat HTML Untuk Menampilkan Hello World Dengan Menggunakan CSS</h1>
+  <p>   
+    Kali ini saya mau share tutorial tentang HTML dasar untuk web desain. Dalam web desain terdapat dua bahasa
+    utama yang dipelajari yaitu HTML dan CSS. Dalam hal ini HTML digunakan untuk membuat tampilan web yang 
+    biasa saja. Tampilan tersebut masih monoton sehingga kurang menarik. Untuk mempercantik tampilan web maka 
+    digunain CSS Namun kali ini saya akan membahas tentang HTML. 
+
+    ini adalah contoh membuat program HTML dengan menggunakan CSS Caranya sangat mudah.
+    Mari kita mulai dengan membuka teks editor, lalu tulislah kode berikut.
+  </p> 
+        </div>
+        <div class="about-col">
+            <img src="prgrm.png">
+        </div>
+           <p>
+               penjelasan :
+            <p>-!DOCTYPE html digunakan untuk mendeklarasikan tipe dari dokumen yang kita buat yaitu html
+                 sehingga dapat ditampilkan oleh web browser dengan benar</p>
+            <p>- html dan /html digunakan untuk menggambarkan sebuah dokumen html</p>
+            <p>- title dan /title digunakan untuk menulis judul web</p>
+            <p>- body dan /body digunakan untuk penulisan pada bagian badan/tengah sebuah kode html. Biasanya
+                 dalam bagian ini terdapat tag penulisan judul halaman, paragraph, dan isi konten yang akan 
+                 ditampilkan.</p>
+            <p>- h1 dan /h1 adalah heading yang digunakan sebagai penuisan judul dan subjudul isi konten. Jumlah 
+                 heading yang bisa digunakan yaitu dari h1 sampai h6. Heading terbesar adalah h1 sedangkan heading 
+                yang terkecil adalah h6.</p>
+            <p>- Style di HTML merupakan atribut yang berfungsi untuk menambahkan Style pada sebuah elemen HTML, 
+                seperti merubah warna, font, ukuran, dan lain-lain.</p>
+           </p>  
+        <div>
+
+
+
+            <div>
+                <p>Dan untuk hasil dari programnya adalah sebagai berikut:</p>
+            </div>
+            <div class="about-col">
+                <img src="hasilnya (1).png"> 
+            </div>
+
+            <div>
+                <p>Semoga uraian di atas bisa membantu kamu lebih memahami HTML dan CSS. 
+                    Selamat belajar!
+                 </p>
+            </div>
+
+        </div>
+    </div>
+</section> 
+
+<!------- footer-------->
+
+<section class="footer">
+    <h4>Tentang kami</h4>
+    <p>
+        website ini sebagai media berbasis online
+        yang digunakan oleh Mahasiswa  <br> 
+        untuk mengetahui berbagai materi tentang HTML dan CSS.
+    </p>
+    <p>Made With <i class="fa fa-heart-o"></i>  by Group 8</p>
+    <p>Copyright © 2022 - Developed by Group 8</p>
+</section>  
+
+<!---------javascript for toggle Menu------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>   
+</body>
+</html>
